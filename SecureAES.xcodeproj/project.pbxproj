@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82D8F37C19233A53009886CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D8F37B19233A53009886CA /* Foundation.framework */; };
+		82D8F37E19233A53009886CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D8F37D19233A53009886CA /* CoreGraphics.framework */; };
+		82D8F38019233A53009886CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D8F37F19233A53009886CA /* UIKit.framework */; };
+		82D8F38619233A53009886CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82D8F38419233A53009886CA /* InfoPlist.strings */; };
+		82D8F38819233A53009886CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D8F38719233A53009886CA /* main.m */; };
+		82D8F38C19233A53009886CA /* tiltAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D8F38B19233A53009886CA /* tiltAppDelegate.m */; };
+		82D8F38F19233A53009886CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D8F38D19233A53009886CA /* Main.storyboard */; };
+		82D8F39219233A53009886CA /* tiltViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D8F39119233A53009886CA /* tiltViewController.m */; };
+		82D8F39419233A53009886CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D8F39319233A53009886CA /* Images.xcassets */; };
+		82D8F39B19233A53009886CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D8F39A19233A53009886CA /* XCTest.framework */; };
+		82D8F39C19233A53009886CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D8F37B19233A53009886CA /* Foundation.framework */; };
+		82D8F39D19233A53009886CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D8F37F19233A53009886CA /* UIKit.framework */; };
+		82D8F3A519233A53009886CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82D8F3A319233A53009886CA /* InfoPlist.strings */; };
+		82D8F3A719233A53009886CA /* SecureAESTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D8F3A619233A53009886CA /* SecureAESTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82D8F39E19233A53009886CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D8F37019233A53009886CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D8F37719233A53009886CA;
+			remoteInfo = SecureAES;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82D8F37819233A53009886CA /* SecureAES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureAES.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D8F37B19233A53009886CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82D8F37D19233A53009886CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82D8F37F19233A53009886CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82D8F38319233A53009886CA /* SecureAES-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecureAES-Info.plist"; sourceTree = "<group>"; };
+		82D8F38519233A53009886CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82D8F38719233A53009886CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82D8F38919233A53009886CA /* SecureAES-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecureAES-Prefix.pch"; sourceTree = "<group>"; };
+		82D8F38A19233A53009886CA /* tiltAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tiltAppDelegate.h; sourceTree = "<group>"; };
+		82D8F38B19233A53009886CA /* tiltAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tiltAppDelegate.m; sourceTree = "<group>"; };
+		82D8F38E19233A53009886CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82D8F39019233A53009886CA /* tiltViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tiltViewController.h; sourceTree = "<group>"; };
+		82D8F39119233A53009886CA /* tiltViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tiltViewController.m; sourceTree = "<group>"; };
+		82D8F39319233A53009886CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82D8F39919233A53009886CA /* SecureAESTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureAESTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D8F39A19233A53009886CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		82D8F3A219233A53009886CA /* SecureAESTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecureAESTests-Info.plist"; sourceTree = "<group>"; };
+		82D8F3A419233A53009886CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82D8F3A619233A53009886CA /* SecureAESTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureAESTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D8F37519233A53009886CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8F37E19233A53009886CA /* CoreGraphics.framework in Frameworks */,
+				82D8F38019233A53009886CA /* UIKit.framework in Frameworks */,
+				82D8F37C19233A53009886CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8F39619233A53009886CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8F39B19233A53009886CA /* XCTest.framework in Frameworks */,
+				82D8F39D19233A53009886CA /* UIKit.framework in Frameworks */,
+				82D8F39C19233A53009886CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82D8F36F19233A53009886CA = {
+			isa = PBXGroup;
+			children = (
+				82D8F38119233A53009886CA /* SecureAES */,
+				82D8F3A019233A53009886CA /* SecureAESTests */,
+				82D8F37A19233A53009886CA /* Frameworks */,
+				82D8F37919233A53009886CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D8F37919233A53009886CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D8F37819233A53009886CA /* SecureAES.app */,
+				82D8F39919233A53009886CA /* SecureAESTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D8F37A19233A53009886CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82D8F37B19233A53009886CA /* Foundation.framework */,
+				82D8F37D19233A53009886CA /* CoreGraphics.framework */,
+				82D8F37F19233A53009886CA /* UIKit.framework */,
+				82D8F39A19233A53009886CA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82D8F38119233A53009886CA /* SecureAES */ = {
+			isa = PBXGroup;
+			children = (
+				82D8F38A19233A53009886CA /* tiltAppDelegate.h */,
+				82D8F38B19233A53009886CA /* tiltAppDelegate.m */,
+				82D8F38D19233A53009886CA /* Main.storyboard */,
+				82D8F39019233A53009886CA /* tiltViewController.h */,
+				82D8F39119233A53009886CA /* tiltViewController.m */,
+				82D8F39319233A53009886CA /* Images.xcassets */,
+				82D8F38219233A53009886CA /* Supporting Files */,
+			);
+			path = SecureAES;
+			sourceTree = "<group>";
+		};
+		82D8F38219233A53009886CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D8F38319233A53009886CA /* SecureAES-Info.plist */,
+				82D8F38419233A53009886CA /* InfoPlist.strings */,
+				82D8F38719233A53009886CA /* main.m */,
+				82D8F38919233A53009886CA /* SecureAES-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82D8F3A019233A53009886CA /* SecureAESTests */ = {
+			isa = PBXGroup;
+			children = (
+				82D8F3A619233A53009886CA /* SecureAESTests.m */,
+				82D8F3A119233A53009886CA /* Supporting Files */,
+			);
+			path = SecureAESTests;
+			sourceTree = "<group>";
+		};
+		82D8F3A119233A53009886CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D8F3A219233A53009886CA /* SecureAESTests-Info.plist */,
+				82D8F3A319233A53009886CA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D8F37719233A53009886CA /* SecureAES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D8F3AA19233A53009886CA /* Build configuration list for PBXNativeTarget "SecureAES" */;
+			buildPhases = (
+				82D8F37419233A53009886CA /* Sources */,
+				82D8F37519233A53009886CA /* Frameworks */,
+				82D8F37619233A53009886CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureAES;
+			productName = SecureAES;
+			productReference = 82D8F37819233A53009886CA /* SecureAES.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82D8F39819233A53009886CA /* SecureAESTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D8F3AD19233A53009886CA /* Build configuration list for PBXNativeTarget "SecureAESTests" */;
+			buildPhases = (
+				82D8F39519233A53009886CA /* Sources */,
+				82D8F39619233A53009886CA /* Frameworks */,
+				82D8F39719233A53009886CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D8F39F19233A53009886CA /* PBXTargetDependency */,
+			);
+			name = SecureAESTests;
+			productName = SecureAESTests;
+			productReference = 82D8F39919233A53009886CA /* SecureAESTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D8F37019233A53009886CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tilt;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "TILT LABS";
+				TargetAttributes = {
+					82D8F39819233A53009886CA = {
+						TestTargetID = 82D8F37719233A53009886CA;
+					};
+				};
+			};
+			buildConfigurationList = 82D8F37319233A53009886CA /* Build configuration list for PBXProject "SecureAES" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82D8F36F19233A53009886CA;
+			productRefGroup = 82D8F37919233A53009886CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D8F37719233A53009886CA /* SecureAES */,
+				82D8F39819233A53009886CA /* SecureAESTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D8F37619233A53009886CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8F39419233A53009886CA /* Images.xcassets in Resources */,
+				82D8F38619233A53009886CA /* InfoPlist.strings in Resources */,
+				82D8F38F19233A53009886CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8F39719233A53009886CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8F3A519233A53009886CA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D8F37419233A53009886CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8F39219233A53009886CA /* tiltViewController.m in Sources */,
+				82D8F38819233A53009886CA /* main.m in Sources */,
+				82D8F38C19233A53009886CA /* tiltAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8F39519233A53009886CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8F3A719233A53009886CA /* SecureAESTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82D8F39F19233A53009886CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D8F37719233A53009886CA /* SecureAES */;
+			targetProxy = 82D8F39E19233A53009886CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82D8F38419233A53009886CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D8F38519233A53009886CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82D8F38D19233A53009886CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D8F38E19233A53009886CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82D8F3A319233A53009886CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D8F3A419233A53009886CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82D8F3A819233A53009886CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82D8F3A919233A53009886CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82D8F3AB19233A53009886CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureAES/SecureAES-Prefix.pch";
+				INFOPLIST_FILE = "SecureAES/SecureAES-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82D8F3AC19233A53009886CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureAES/SecureAES-Prefix.pch";
+				INFOPLIST_FILE = "SecureAES/SecureAES-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82D8F3AE19233A53009886CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecureAES.app/SecureAES";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureAES/SecureAES-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SecureAESTests/SecureAESTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		82D8F3AF19233A53009886CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecureAES.app/SecureAES";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureAES/SecureAES-Prefix.pch";
+				INFOPLIST_FILE = "SecureAESTests/SecureAESTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D8F37319233A53009886CA /* Build configuration list for PBXProject "SecureAES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D8F3A819233A53009886CA /* Debug */,
+				82D8F3A919233A53009886CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D8F3AA19233A53009886CA /* Build configuration list for PBXNativeTarget "SecureAES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D8F3AB19233A53009886CA /* Debug */,
+				82D8F3AC19233A53009886CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82D8F3AD19233A53009886CA /* Build configuration list for PBXNativeTarget "SecureAESTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D8F3AE19233A53009886CA /* Debug */,
+				82D8F3AF19233A53009886CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D8F37019233A53009886CA /* Project object */;
+}
