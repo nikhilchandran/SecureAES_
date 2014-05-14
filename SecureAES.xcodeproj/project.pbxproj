@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		823CDDFD192344C800ACD8BE /* example.m in Sources */ = {isa = PBXBuildFile; fileRef = 823CDDFA192344C800ACD8BE /* example.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		823CDE001923454D00ACD8BE /* text.dat in Resources */ = {isa = PBXBuildFile; fileRef = 823CDDFF1923454D00ACD8BE /* text.dat */; };
+		823CDE0C19234E8400ACD8BE /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 823CDE0519234E8400ACD8BE /* RNCryptor.m */; };
+		823CDE0D19234E8400ACD8BE /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 823CDE0719234E8400ACD8BE /* RNCryptorEngine.m */; };
+		823CDE0E19234E8400ACD8BE /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 823CDE0919234E8400ACD8BE /* RNDecryptor.m */; };
+		823CDE0F19234E8400ACD8BE /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 823CDE0B19234E8400ACD8BE /* RNEncryptor.m */; };
+		823CDE1119234F1E00ACD8BE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823CDE1019234F1E00ACD8BE /* Security.framework */; };
+		823CDE141923569700ACD8BE /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 823CDE131923569700ACD8BE /* NSData+CommonCrypto.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		82D8F37C19233A53009886CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D8F37B19233A53009886CA /* Foundation.framework */; };
 		82D8F37E19233A53009886CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D8F37D19233A53009886CA /* CoreGraphics.framework */; };
 		82D8F38019233A53009886CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D8F37F19233A53009886CA /* UIKit.framework */; };
@@ -34,6 +42,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		823CDDFA192344C800ACD8BE /* example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = example.m; sourceTree = "<group>"; };
+		823CDDFF1923454D00ACD8BE /* text.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.dat; sourceTree = "<group>"; };
+		823CDE0219234E8400ACD8BE /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		823CDE0319234E8400ACD8BE /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
+		823CDE0419234E8400ACD8BE /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		823CDE0519234E8400ACD8BE /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		823CDE0619234E8400ACD8BE /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		823CDE0719234E8400ACD8BE /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		823CDE0819234E8400ACD8BE /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		823CDE0919234E8400ACD8BE /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		823CDE0A19234E8400ACD8BE /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		823CDE0B19234E8400ACD8BE /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		823CDE1019234F1E00ACD8BE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		823CDE121923569700ACD8BE /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		823CDE131923569700ACD8BE /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 		82D8F37819233A53009886CA /* SecureAES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureAES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D8F37B19233A53009886CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82D8F37D19233A53009886CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823CDE1119234F1E00ACD8BE /* Security.framework in Frameworks */,
 				82D8F37E19233A53009886CA /* CoreGraphics.framework in Frameworks */,
 				82D8F38019233A53009886CA /* UIKit.framework in Frameworks */,
 				82D8F37C19233A53009886CA /* Foundation.framework in Frameworks */,
@@ -79,9 +103,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		823CDE0119234E8400ACD8BE /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				823CDE0219234E8400ACD8BE /* RNCryptor+Private.h */,
+				823CDE0319234E8400ACD8BE /* RNCryptor-Prefix.pch */,
+				823CDE0419234E8400ACD8BE /* RNCryptor.h */,
+				823CDE0519234E8400ACD8BE /* RNCryptor.m */,
+				823CDE0619234E8400ACD8BE /* RNCryptorEngine.h */,
+				823CDE0719234E8400ACD8BE /* RNCryptorEngine.m */,
+				823CDE0819234E8400ACD8BE /* RNDecryptor.h */,
+				823CDE0919234E8400ACD8BE /* RNDecryptor.m */,
+				823CDE0A19234E8400ACD8BE /* RNEncryptor.h */,
+				823CDE0B19234E8400ACD8BE /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
 		82D8F36F19233A53009886CA = {
 			isa = PBXGroup;
 			children = (
+				823CDE121923569700ACD8BE /* NSData+CommonCrypto.h */,
+				823CDE131923569700ACD8BE /* NSData+CommonCrypto.m */,
+				823CDE0119234E8400ACD8BE /* RNCryptor */,
+				823CDDFF1923454D00ACD8BE /* text.dat */,
+				823CDDFA192344C800ACD8BE /* example.m */,
 				82D8F38119233A53009886CA /* SecureAES */,
 				82D8F3A019233A53009886CA /* SecureAESTests */,
 				82D8F37A19233A53009886CA /* Frameworks */,
@@ -101,6 +147,7 @@
 		82D8F37A19233A53009886CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				823CDE1019234F1E00ACD8BE /* Security.framework */,
 				82D8F37B19233A53009886CA /* Foundation.framework */,
 				82D8F37D19233A53009886CA /* CoreGraphics.framework */,
 				82D8F37F19233A53009886CA /* UIKit.framework */,
@@ -232,6 +279,7 @@
 				82D8F39419233A53009886CA /* Images.xcassets in Resources */,
 				82D8F38619233A53009886CA /* InfoPlist.strings in Resources */,
 				82D8F38F19233A53009886CA /* Main.storyboard in Resources */,
+				823CDE001923454D00ACD8BE /* text.dat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +298,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823CDE0D19234E8400ACD8BE /* RNCryptorEngine.m in Sources */,
+				823CDDFD192344C800ACD8BE /* example.m in Sources */,
+				823CDE141923569700ACD8BE /* NSData+CommonCrypto.m in Sources */,
 				82D8F39219233A53009886CA /* tiltViewController.m in Sources */,
+				823CDE0E19234E8400ACD8BE /* RNDecryptor.m in Sources */,
 				82D8F38819233A53009886CA /* main.m in Sources */,
+				823CDE0F19234E8400ACD8BE /* RNEncryptor.m in Sources */,
 				82D8F38C19233A53009886CA /* tiltAppDelegate.m in Sources */,
+				823CDE0C19234E8400ACD8BE /* RNCryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +434,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SecureAES/SecureAES-Prefix.pch";
 				INFOPLIST_FILE = "SecureAES/SecureAES-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +448,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SecureAES/SecureAES-Prefix.pch";
 				INFOPLIST_FILE = "SecureAES/SecureAES-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +513,7 @@
 				82D8F3AC19233A53009886CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82D8F3AD19233A53009886CA /* Build configuration list for PBXNativeTarget "SecureAESTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +522,7 @@
 				82D8F3AF19233A53009886CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

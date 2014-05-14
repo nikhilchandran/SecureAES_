@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface tiltViewController : UIViewController
+- (IBAction)testButton2:(id)sender;
 
 @end
